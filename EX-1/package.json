@@ -1,7 +1,6 @@
 {
-  "name": "w1",
+  "name": "ex-1",
   "version": "1.0.0",
-  "type":"module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,5 +8,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
