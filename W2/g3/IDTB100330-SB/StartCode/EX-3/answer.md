@@ -1,6 +1,6 @@
 1. Why do we listen for data and end events when handling POST?  
     ➢ Because to collect the incoming request body in chunks (data) and know when 
-    it's fully received (end). 
+    it's fully received (end).
 2. What would happen if we didn’t buffer the body correctly?  
     ➢ We might only get part of the data, leading to incomplete or corrupted input. 
 3. What is the format of form submissions when using the default browser form POST?  
